@@ -2,7 +2,9 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: example-configmap
+  name: argo-eval-app-cm
+  labels:
+    app: argo-eval-app
 data:
   example.property.1: "This is an example property"
   example.property.2: "This is another example property"
