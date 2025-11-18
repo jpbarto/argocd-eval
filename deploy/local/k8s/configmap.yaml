@@ -1,0 +1,26 @@
+# create a simple configmap for use in a kubernetes cluster
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: example-configmap
+data:
+  example.property.1: "This is an example property"
+  example.property.2: "This is another example property"
+  example.property.3: "Yet another example property"
+  example.property.4: "More example properties can be added here"
+  example.property.5: "ConfigMaps are useful for storing configuration data"
+  example.property.6: "You can reference these properties in your pods"
+  example.property.7: "ConfigMaps help separate configuration from code"
+  example.property.8: "This makes your applications more portable"
+  example.property.9: "Kubernetes makes it easy to manage ConfigMaps"
+  example.property.10: "You can update ConfigMaps without redeploying pods"
+  example.property.11: "ConfigMaps can be created from files or literals"
+  example.property.12: "They can also be used to store environment variables"
+  example.property.13: "ConfigMaps can be mounted as volumes in pods"
+  example.property.14: "This allows applications to read configuration files"
+  example.property.15: "You can also use ConfigMaps with Helm charts"
+  example.property.16: "Helm makes it easy to manage Kubernetes applications"
+  example.property.17: "You can version your ConfigMaps with Helm"
+  example.property.18: "This helps with rollbacks and updates"
+  example.property.19: "ConfigMaps are a key part of Kubernetes configuration management"
+  example.property.20: "Using ConfigMaps effectively can improve your deployments"
